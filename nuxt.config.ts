@@ -1,9 +1,18 @@
-import { defineNuxtConfig } from "nuxt";
 
 export default defineNuxtConfig({
-  css: ["water.css/out/light.css"],
+  css: ["/assets/main.css"],
   build: {
-    transpile: ["@urql/vue"]
+    transpile: ["@urql/vue"],
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          'postcss-import': {},
+          tailwindcss: { config: './tailwind.config.js' },
+          autoprefixer: {},
+        },
+      },
+    },
   },
-  ssr: false
+  ssr: false,
+  components: true,
 });
