@@ -15,4 +15,11 @@ export default defineNuxtConfig({
   },
   ssr: false,
   components: true,
+  vite: {
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
+  },
 });

@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="h-screen w-screen relative">
+    <div class="h-screen w-screen relative flex flex-col justify-center items-center">
       <img class="bg-img" src="/cover.jpg">
-      <div class="flex-col w-100 h-100 justify-center align-middle">
-        <h1 class="z-50 relative text-5xl text-white">You're not alone....</h1>
-        <h1 class="z-50 relative text-2xl text-white">COMING SOON</h1>
+      <div class="flex flex-col gap-2 text-center">
+        <h1 class="z-50 relative text-5xl text-white">We're not alone...</h1>
+        <h1 class="z-50 relative text-2xl text-white">Astro Tribe coming soon</h1>
       </div>
     </div>
   </section>
