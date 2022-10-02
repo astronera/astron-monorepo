@@ -18,18 +18,8 @@
   top: 0;
   left: 0;
   position: absolute;
-  width: 100%;
-  max-height: 100%;
+  min-height: 100%;
   object-fit: cover;
-  z-index: 0;
-}
-
-.sml-img {
-  opacity: .6;
-  /* position: absolute; */
-  margin-top: 50px;
-  height: auto;
-  margin: auto;
   z-index: 0;
 }
 
