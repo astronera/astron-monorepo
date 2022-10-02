@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="h-screen w-screen relative flex flex-col justify-center items-center">
+    <div class="h-screen w-screen relative flex flex-col justify-center items-center overflow-hidden">
       <img class="bg-img" src="/cover.jpg">
       <div class="flex flex-col gap-8 text-center bg-slate-400 p-20">
         <!-- <img class="sml-img" src="/astronaught.png"> -->
