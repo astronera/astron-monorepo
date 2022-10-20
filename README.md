@@ -18,31 +18,9 @@ We recommend to look at the [nuxt3 documentation](http://v3.nuxtjs.org).
 
 Make sure to install the dependencies
 
-```bash
-yarn install
-```
-
-## Development
-
-Rebuild typescript sources (schema, introspection and operations) from graphql files
-
-```bash
-yarn graphql-codegen
-```
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
 ## Production
 
 Build the application for production:
-
-```bash
-yarn build
-```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
 

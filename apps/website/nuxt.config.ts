@@ -3,8 +3,12 @@ export default defineNuxtConfig({
   css: ["/assets/main.css"],
   modules: [
     '@nuxtjs/tailwindcss',
+    'nuxt-directus',
     // '@nuxt/postcss8', not currently supported in release candidate
   ],
+  directus: {
+    url: "https://swyi1ut9.directus.app/", // change
+  },
   build: {
     transpile: ["@urql/vue"],
     postcss: {
