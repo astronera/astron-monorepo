@@ -15,6 +15,7 @@
     "dev": "npx lerna run dev",
     "build": "npx lerna run build",
     "test": "npx lerna run test",
+    "bootstrap": "npx lerna bootstrap",
     "preview": "nuxt preview",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue"
   },
@@ -25,7 +26,7 @@
     "ansi-regex": "^5.0.1"
   },
   "workspaces": [
-    "packages/*",
-    "apps/*"
+    "packages/**",
+    "apps/**"
   ]
 }

@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "graphql": "^16.5.0",
-    "nuxi": "^3.0.0-rc.11"
+    "nuxi": "^3.0.0-rc.11",
+    "ohmyfetch": "^0.4.19"
   },
   "resolutions": {
     "ansi-regex": "^5.0.1"

@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '5.5.4',
+0 silly argv   '$0': 'C:\\Users\\HP\\AppData\\Local\\npm-cache\\_npx\\d5cad42883f80c04\\node_modules\\lerna\\cli.js',
+0 silly argv   name: './'
+0 silly argv }
+1 notice cli v5.5.4
+2 verbose rootPath C:\Users\HP\Desktop\MLFX-Code\astron-monorepo
+3 error TypeError: Cannot read properties of undefined (reading 'toLocaleLowerCase')
+3 error     at camelCase (C:\Users\HP\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\yargs-parser\build\index.cjs:8:15)
+3 error     at CreateCommand.initialize (C:\Users\HP\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\@lerna\create\index.js:62:22)
